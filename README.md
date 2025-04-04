@@ -31,8 +31,6 @@ Clone the repository and open the index.html file in your browser to explore the
 
 Want to View It?
 
-Click this link: https://kerubointech.netlify.app/
-
 Future Enhancements Add more interactive elements, such as modals or sliders. Integrate JavaScript for dynamic functionality (e.g., form validation, lazy loading). Optimize performance further by minifying CSS and leveraging CSS preprocessors like SASS.
 
  

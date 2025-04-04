@@ -29,8 +29,12 @@ INTRESTED IN CONTRIBUTION?
 
 Clone the repository and open the index.html file in your browser to explore the project. Customize the CSS variables in the :root section to adapt the design to your branding or preferences.
 
-Want to View It?
+Want to View It
 
-Future Enhancements Add more interactive elements, such as modals or sliders. Integrate JavaScript for dynamic functionality (e.g., form validation, lazy loading). Optimize performance further by minifying CSS and leveraging CSS preprocessors like SASS.
+Click this link: https://cynthia-sal.netlify.app/
+
+Future Enhancements 
+
+Add more interactive elements, such as modals or sliders. Integrate JavaScript for dynamic functionality (e.g., form validation, lazy loading). Optimize performance further by minifying CSS and leveraging CSS preprocessors like SASS.
 
  

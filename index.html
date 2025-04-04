@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cynthia's Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Upper Bar -->
+    <div class="header-nav">
+        <a href="index.html" class="logo">CN</a>
+        <div class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></div>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">ABOUT</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contact">CONTACT</a>
+             </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Cynthia Ongwenyi</h1>
+                <p class="animated-text">Software Engineer | Data Enthusiast</p>
+                <p class="scroll-text">Making software fabulous one bug at a time!  💻✨</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <a href="#about" class="cv-btn">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>With a Keen focus on solving problems, I am a passionate Software developer with experience in building scalable user-friendly web applications. I thrive on learning new technologies and collaborating with teams to deliver high-quality software solutions. I find interest in data  and analysis and have been involving myself with projects and insights in the Field of Data Science</p>
+            </div>
+            <div class="about-image">
+                <img src="images/code2.jpg" alt="software engineer" class="profile-image-about">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Building dynamic web applications using JavaScript.</p>
+            </div>
+            <div class="skill-card">
+                <h3>React</h3>
+                <p>Developing modern web apps with React.js and Redux.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Building scripts and web apps with Python and Django.</p>
+            </div>
+            <div class="skill-card">
+                <h3>HTML/CSS</h3>
+                <p>Creating responsive and accessible layouts with HTML5 and CSS3.</p>
+            </div>
+            <div class="skill-card">
+                <h3>SQL</h3>
+                <p>Designing and managing relational databases with SQL.</p>
+            </div>
+            <div class="skill-card">
+                <h3>AWS</h3>
+                <p>AWS Certified Cloud Practitioner with knowledge of AWS Computing Services and Technologies.</p>   
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>PLP Student</h3>
+                <p>POWER LEARN PROJECT, 2025</p>
+                <p>Software Engineering with Specialization in MERN,AI & ML and Mobile App Development.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Bachelor of Science in Business and Information Technology</h3>
+                <p>Mount Kenya University, 2023</p>
+                <p>Graduated with a strong focus on Data Science and Software development practices.</p>
+            </div>
+            
+            <a href="Cynthia O_CV.pdf" download="CYNTHIA_CV.pdf" class="cta-button" aria-label="Download CV">Download CV</a>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3><a href="https://your-portfolio-project3.com" target="_blank">Zuri Online Grocery System</a></h3>
+                <p>A Grocery E-commerce platform integrated with a payment gateway.</p>
+            </div>
+            <div class="project-card">
+                <h3><a href="https://your-portfolio-project1.com" target="_blank">Portfolio Website</a></h3>
+                <p>A responsive portfolio website built with HTML5, CSS3, and JavaScript to showcase my skills and projects.</p>
+            </div>
+            <div class="project-card">
+                <h3><a href="https://your-portfolio-project2.com" target="_blank">PLP Projects</a></h3>
+                <p>Projects done as part of my PLP Coursework showcasing skills using HTML, CSS, Web Development, JavaScript, Python and SQL</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-links"><a href="https://github.com/Sal-ht" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" fill="hsl(200, 100%, 40%)" viewBox="0 0 24 24" width="40" height="40"><path d="M12 .3c-6.627 0-12 5.373-12 12 0 5.304 3.438 9.8 8.205 11.388.6.111.82-.26.82-.577 0-.284-.01-1.233-.014-2.241-3.338.726-4.048-1.607-4.048-1.607-.546-1.384-1.333-1.754-1.333-1.754-1.089-.743.083-.728.083-.728 1.205.085 1.837 1.237 1.837 1.237 1.07 1.834 2.807 1.302 3.492.996.109-.774.42-1.302.764-1.6-2.665-.303-5.467-1.333-5.467-5.93 0-1.311.467-2.384 1.236-3.22-.124-.303-.536-1.53.117-3.182 0 0 1.008-.322 3.303 1.227.958-.266 1.988-.399 3.004-.403 1.016.004 2.046.137 3.004.403 2.295-1.549 3.303-1.227 3.303-1.227.653 1.652.242 2.879.118 3.182.77.836 1.236 1.909 1.236 3.22 0 4.61-2.805 5.623-5.477 5.923.43.371.815 1.1.815 2.22 0 1.604-.014 2.895-.014 3.283 0 .317.218.692.825.577A12.004 12.004 0 0024 12.3c0-6.627-5.373-12-12-12"></path></svg></a><a href="https://www.linkedin.com/in/CynthiaOngwenyi" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" fill="hsl(200, 100%, 40%)" viewBox="0 0 24 24" width="40" height="40"><path d="M19 0H5C2.25 0 0 2.25 0 5v14c0 2.75 2.25 5 5 5h14c2.75 0 5-2.25 5-5V5c0-2.75-2.25-5-5-5zM7.5 20H4.5V9h3v11zm-1.5-12.75c-1 0-1.5-.75-1.5-1.5s.5-1.5 1.5-1.5 1.5.75 1.5 1.5-.5 1.5-1.5 1.5zm15 12.75h-3v-5.5c0-1.5-.5-2.5-1.75-2.5-1.25 0-1.75 1-1.75 2.5v5.5h-3v-11h3v1.5c.5-1 1.5-2 3.25-2 2.5 0 4.25 1.75 4.25 5.5v6.5z"></path></svg></a></div>
+        <p class="whatsapp-icon">&copy; 2025 Designed by Cynthia | All Rights Reserved</p>
+        <a href="https://wa.me/254708794161?text=Hi%20Cynthia,%20I%20would%20like%20to%20chat%20with%20you!" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat with me on WhatsApp"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon" width="40 px"></a>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
